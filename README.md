@@ -6,9 +6,9 @@ YT-Music-QT is a Python application that allows users to search for and stream m
 
 - Search for music on YouTube.
 - Stream audio directly from YouTube.
-- Clickable results for easy navigation.
-- Media controls that fade after a song finishes.
-- Recommendations for similar songs based on genre and artist.
+- Clickable results for easy navigation. 
+- Media controls that fade after a song finishes. (The pause and resume button is WIP)
+- Recommendations for similar songs based on genre and artist. (WIP - Don't expect this to work at any moment)
 
 ## Project Structure
 
