@@ -1,6 +1,6 @@
-# YouTube Music Streamer
+# YT-Music-QT
 
-YouTube Music Streamer is a Python application that allows users to search for and stream music from YouTube. The application consists of a client interface built with PyQt5 and a backend server that handles music search and streaming functionalities.
+YT-Music-QT is a Python application that allows users to search for and stream music from YouTube. The application consists of a client interface built with PyQt5 and a backend server that handles music search and streaming functionalities.
 
 ## Features
 
@@ -35,7 +35,7 @@ ytmusic-streamer
 1. Clone the repository:
    ```
    git clone <repository-url>
-   cd ytmusic-streamer
+   cd YT-Music-QT-Revamped-main
    ```
 
 2. Install the required dependencies:
@@ -43,7 +43,7 @@ ytmusic-streamer
    pip install -r requirements.txt
    ```
 
-3. Configure the backend server settings in `src/backend/config.py` to set the desired IP address and port.
+3. Configure the backend server settings in `config.py` to set the desired IP address and port.
 
 4. (Optional) Copy `.env.example` to `.env` and modify it to set environment variables as needed.
 
@@ -51,12 +51,12 @@ ytmusic-streamer
 
 1. Start the backend server:
    ```
-   python src/backend/server.py
+   python server.py
    ```
 
 2. Run the client application:
    ```
-   python src/client/main.py
+   python main.py
    ```
 
 3. Use the search field to find music and click on the results to start streaming.
@@ -67,4 +67,4 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the GNU GPL 2.0 License. See the LICENSE file for details.
